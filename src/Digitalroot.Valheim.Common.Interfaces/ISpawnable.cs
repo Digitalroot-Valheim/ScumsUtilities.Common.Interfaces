@@ -6,7 +6,7 @@ namespace Digitalroot.Valheim.Common.Interfaces
   /// <summary>
   /// Contract for creating Spawnable GameObjects
   /// </summary>
-  internal interface ISpawnable
+  public interface ISpawnable
   {
     /// <summary>
     /// Local position relative to the parent.
