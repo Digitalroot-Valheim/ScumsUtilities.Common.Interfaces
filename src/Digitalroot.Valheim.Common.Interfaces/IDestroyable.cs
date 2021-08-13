@@ -1,6 +1,6 @@
 ﻿namespace Digitalroot.Valheim.Common.Interfaces
 {
-  internal interface IDestroyable
+  public interface IDestroyable
   {
     void OnDestroy();
   }
