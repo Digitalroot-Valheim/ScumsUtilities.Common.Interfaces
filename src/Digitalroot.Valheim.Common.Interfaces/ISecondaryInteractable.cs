@@ -2,6 +2,6 @@ namespace Digitalroot.Valheim.Common.Interfaces
 {
   public interface ISecondaryInteractable
   {
-    void SecondaryInteract(Humanoid user);
+    void SecondaryInteract(Humanoid user, bool hold);
   }
 }
