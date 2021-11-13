@@ -6,7 +6,7 @@
     <LangVersion>9</LangVersion>
     <PackageId>Digitalroot.Valheim.Common.Interfaces</PackageId>
     <RootNamespace>Digitalroot.Valheim.Common.Interfaces</RootNamespace>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <Copyright>Copyright © Digitalroot Technologies 2021 - 2022</Copyright>
