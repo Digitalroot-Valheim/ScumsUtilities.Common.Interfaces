@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyName>Digitalroot.Valheim.Common.Interfaces</AssemblyName>
     <TargetFrameworks>netstandard2.1;net462;net472;net48</TargetFrameworks>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9</LangVersion>
     <PackageId>Digitalroot.Valheim.Common.Interfaces</PackageId>
     <RootNamespace>Digitalroot.Valheim.Common.Interfaces</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -22,9 +22,11 @@
     <Description>Interfaces for Valheim</Description>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageVersion>1.0.2</PackageVersion>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <RestoreAdditionalProjectSources>
+	    https://nuget.bepinex.dev/v3/index.json;
+	    https://digitalroot-valheim-nuget.s3.us-west-2.amazonaws.com/index.json
+    </RestoreAdditionalProjectSources>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
