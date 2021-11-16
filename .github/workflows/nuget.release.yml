@@ -1,5 +1,7 @@
 name: NuGet Release
 
+concurrency: ci-${{ github.ref }}
+
 on:
   push:
     branches: [ main ] # Default release branch
