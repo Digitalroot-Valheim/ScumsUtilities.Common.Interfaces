@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalroot.Valheim.Common.Interfaces", "Digitalroot.Valheim.Common.Interfaces\Digitalroot.Valheim.Common.Interfaces.csproj", "{EF5FC0F6-01B7-47FC-B9AB-09498EF5A145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DA862ED4-9F26-4BDA-84CC-6D38B2922E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{EF5FC0F6-01B7-47FC-B9AB-09498EF5A145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF5FC0F6-01B7-47FC-B9AB-09498EF5A145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF5FC0F6-01B7-47FC-B9AB-09498EF5A145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA862ED4-9F26-4BDA-84CC-6D38B2922E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA862ED4-9F26-4BDA-84CC-6D38B2922E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA862ED4-9F26-4BDA-84CC-6D38B2922E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA862ED4-9F26-4BDA-84CC-6D38B2922E4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
